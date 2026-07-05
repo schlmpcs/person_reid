@@ -1,0 +1,31 @@
+# --- Datasets (license-restricted, do not commit) ---
+MSMT17_V1/
+MSMT17_V1.zip
+*.zip
+
+# --- Python env ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- FastReID framework (obtain separately; only patches/ are tracked) ---
+fast-reid/
+
+# --- Model artifacts / build outputs (too large for git; regenerate) ---
+*.pth
+*.pt
+*.onnx
+*.engine
+*.trt
+*.plan
+logs/
+output/
+
+# --- Logs ---
+*.log
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
